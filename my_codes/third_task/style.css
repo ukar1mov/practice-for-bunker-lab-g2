@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 20, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white_box{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 4%;
+    box-shadow: 2px 2px 9px 9px rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title{
+    height: 80px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list_one{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.square{
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+    border-radius: 1px;
+}
+.inside_square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;  
+}
+.things{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.magic_button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo{
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    outline: none;
+}
+.magic_button_two{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+    margin-right: 15px;
+}

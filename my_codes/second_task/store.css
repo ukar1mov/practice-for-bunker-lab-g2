@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img_back{
+    width: 100vw;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.6) url(./media/smoke.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box_for_links{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: white;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    margin: 0px 100px;
+}
+.links:hover{
+    height: 28px;
+    background-color: rgba(255, 255, 255, 0.377);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transform: scale(1.5);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.generics{
+    color: white;
+    font-size: 80px;
+    margin-top: 35px;
+}
+.main_box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first_line{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_one{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 99, 211);
+    border-top-left-radius: 60%;
+}
+.second_box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 180, 248);;
+}
+.third_box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 33, 255);
+}
+.fourth_box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 13);
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.box_one_second_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 99, 211);
+    border-top-right-radius: 60%;
+}
+.second_box_second_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 180, 248);;
+    border-radius: 10%;
+}
+.third_box_second_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 33, 255);
+    border-radius: 10%;
+}
+.fourth_box_second_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 13);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.box_one_third_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 99, 211);
+    border-bottom-right-radius: 60%;
+}
+.second_box_third_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 180, 248);;
+    border-radius: 30%;
+}
+.third_box_third_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 33, 255);
+    border-radius: 20%;
+}
+.fourth_box_third_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 13);
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+}
+.box_one_fourth_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 99, 211);
+    border-bottom-left-radius: 60%;
+}
+.second_box_fourth_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 180, 248);
+    border-radius: 50%;
+}
+.third_box_fourth_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 33, 255);
+    border-radius: 50%;
+}
+.fourth_box_fourth_line{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 13);
+    border-top-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+}
