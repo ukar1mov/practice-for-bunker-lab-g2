@@ -73,6 +73,9 @@
     color: white;
     font-size: 80px;
     margin-top: 35px;
+    font-family: 'Metal Mania', cursive;
+    font-weight:initial;
+
 }
 .body_box{
     display: flex;
@@ -81,6 +84,7 @@
 }
 .tours{
     margin-top: 30px;
+    font-family: 'Metal Mania', cursive;
 }
 .under_tour{
     margin-top: 20px;
@@ -123,6 +127,9 @@
 .last_text{
     font-size: 2rem;
     color: white;
+    font-family: 'Metal Mania', cursive;
+    font-weight:initial;
+
 }
 .logos{
     width: 30px;

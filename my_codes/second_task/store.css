@@ -45,6 +45,8 @@
     color: white;
     font-size: 80px;
     margin-top: 35px;
+    font-family: 'Metal Mania', cursive;
+    font-weight:initial;
 }
 .main_box{
     width: 100vw;
